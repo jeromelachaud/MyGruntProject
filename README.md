@@ -1,4 +1,6 @@
 MyGruntfile
 ===========
 
-My Gruntfile
+My generic Gruntfile. 
+
+Definitively WIP.
