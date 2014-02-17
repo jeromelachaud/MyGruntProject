@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Media Queries
+
+   - Not-small
+   - Medium
+   - Large
+   ========================================================================== */
+
+
+/* Not-small (anything bigger than your first breakpoint)
+   ========================================================================== */
+@import "compass/css3";
+
+@include break(not-small) {
+
+	header {
+		font-size: $font-size-2;
+	}
+	
+	.gravatar {
+		@include border-radius(100px);
+		position: absolute;
+	}
+
+	.one, .two{
+		width: 50%;
+		margin: 1em auto;
+	}
+}
+
+/* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
+   ========================================================================== */
+
+@include break(medium) {
+
+	.gravatar {
+		background: url("http://www.gravatar.com/avatar/86f60f5546a08a579435b5d49b85b004?s=100") no-repeat;
+		height: 100px;
+		width: 98px;
+		right: 40px;
+		top: 100px;	}
+	}
+
+/* Large - only targets 2nd breakpoint. Styles do not extend past 64em.
+   ========================================================================== */
+
+@include break(large) {
+	.gravatar {
+		background: url('http://www.gravatar.com/avatar/86f60f5546a08a579435b5d49b85b004?s=140')no-repeat ;
+		height: 140px;
+		width: 140px;
+		right: 190px;
+		top: 160px;
+	}
+
+	.one, .two {
+		width: 33%
+	}
+}
+

@@ -1,0 +1,7 @@
+
+/* minify */
+/* Gruntproject - v0.1.0
+ * Author:Jerome Lachaud
+ * 01-21-2014, 14:06:40 */
+
+.content .button{-fx-text-fill:#e4f3fc;-fx-font:16pt "Tahoma Bold";-fx-padding:4;-fx-base:#2d4b8e}.content .button:hover{-fx-base:#395bae}.content .title{-fx-text-fill:#2365b4;-fx-font-size:20px;-fx-font-weight:700}.content .hyperlink{-fx-text-fill:#2365b4;-fx-background-color:transparent;-fx-padding:0;-fx-cursor:hand}.content .hyperlink:hover{-fx-underline:true}.content .hyperlink:focused{-fx-border-width:0;-fx-border-color:transparent}.content .hyperlink:visited{-fx-text-fill:#2365b4}.list-view,.list-view:focused{-fx-border-width:1;-fx-border-color:#c2d8f3;-fx-border-radius:5;-fx-background-insets:0}.list-cell{-fx-border-color:#c2d8f3;-fx-border-width:0 0 1;-fx-background-color:#fff}.list-cell:odd{-fx-background-color:derive(-fx-control-inner-background,-5%)}.list-cell:filled:hover{-fx-background-color:-fx-cell-hover-color}.list-cell:empty{-fx-background-color:#fff;-fx-border-width:0}.search-contacts .company{-fx-padding:0 0 0 10;-fx-text-fill:#666}Hide details Change log r32 by zonski on Nov 19,2011 Diff [No log message] Go to:Older revisions r20 by zonski on Nov 11,2011 Diff r17 by zonski on Nov 9,2011 Diff All revisions of this file File info Size:1284 bytes,71 lines View raw file

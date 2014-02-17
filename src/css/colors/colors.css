@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/****
+
+   colors.css v1.0 For a friendlier looking web
+   MIT License • http://clrs.cc • http://github.com/mrmrs/colors
+
+   Author: mrmrs
+           http://mrmrs.cc
+           @mrmrs_
+
+****/
+/*
+
+   SKINS
+   • Backgrounds
+   • Colors
+
+*/
+/* Backgrounds */
+/* line 12, ../../sass/colors/_skins.scss */
+.bg-navy {
+  background-color: #001f3f;
+}
+
+/* line 13, ../../sass/colors/_skins.scss */
+.bg-blue {
+  background-color: #0074d9;
+}
+
+/* line 14, ../../sass/colors/_skins.scss */
+.bg-aqua {
+  background-color: #7fdbff;
+}
+
+/* line 15, ../../sass/colors/_skins.scss */
+.bg-teal {
+  background-color: #39cccc;
+}
+
+/* line 16, ../../sass/colors/_skins.scss */
+.bg-olive {
+  background-color: #3d9970;
+}
+
+/* line 17, ../../sass/colors/_skins.scss */
+.bg-green {
+  background-color: #2ecc40;
+}
+
+/* line 18, ../../sass/colors/_skins.scss */
+.bg-lime {
+  background-color: #01ff70;
+}
+
+/* line 19, ../../sass/colors/_skins.scss */
+.bg-yellow {
+  background-color: #ffdc00;
+}
+
+/* line 20, ../../sass/colors/_skins.scss */
+.bg-orange {
+  background-color: #ff851b;
+}
+
+/* line 21, ../../sass/colors/_skins.scss */
+.bg-red {
+  background-color: #ff4136;
+}
+
+/* line 22, ../../sass/colors/_skins.scss */
+.bg-fuchsia {
+  background-color: #f012be;
+}
+
+/* line 23, ../../sass/colors/_skins.scss */
+.bg-purple {
+  background-color: #b10dc9;
+}
+
+/* line 24, ../../sass/colors/_skins.scss */
+.bg-maroon {
+  background-color: #85144b;
+}
+
+/* line 25, ../../sass/colors/_skins.scss */
+.bg-white {
+  background-color: white;
+}
+
+/* line 26, ../../sass/colors/_skins.scss */
+.bg-gray {
+  background-color: #aaaaaa;
+}
+
+/* line 27, ../../sass/colors/_skins.scss */
+.bg-silver {
+  background-color: #dddddd;
+}
+
+/* line 28, ../../sass/colors/_skins.scss */
+.bg-black {
+  background-color: #111111;
+}
+
+/* Colors */
+/* line 33, ../../sass/colors/_skins.scss */
+.navy {
+  color: #001f3f;
+}
+
+/* line 34, ../../sass/colors/_skins.scss */
+.blue {
+  color: #0074d9;
+}
+
+/* line 35, ../../sass/colors/_skins.scss */
+.aqua {
+  color: #7fdbff;
+}
+
+/* line 36, ../../sass/colors/_skins.scss */
+.teal {
+  color: #39cccc;
+}
+
+/* line 37, ../../sass/colors/_skins.scss */
+.olive {
+  color: #3d9970;
+}
+
+/* line 38, ../../sass/colors/_skins.scss */
+.green {
+  color: #2ecc40;
+}
+
+/* line 39, ../../sass/colors/_skins.scss */
+.lime {
+  color: #01ff70;
+}
+
+/* line 40, ../../sass/colors/_skins.scss */
+.yellow {
+  color: #ffdc00;
+}
+
+/* line 41, ../../sass/colors/_skins.scss */
+.orange {
+  color: #ff851b;
+}
+
+/* line 42, ../../sass/colors/_skins.scss */
+.red {
+  color: #ff4136;
+}
+
+/* line 43, ../../sass/colors/_skins.scss */
+.fuchsia {
+  color: #f012be;
+}
+
+/* line 44, ../../sass/colors/_skins.scss */
+.purple {
+  color: #b10dc9;
+}
+
+/* line 45, ../../sass/colors/_skins.scss */
+.maroon {
+  color: #85144b;
+}
+
+/* line 46, ../../sass/colors/_skins.scss */
+.white {
+  color: white;
+}
+
+/* line 47, ../../sass/colors/_skins.scss */
+.silver {
+  color: #dddddd;
+}
+
+/* line 48, ../../sass/colors/_skins.scss */
+.gray {
+  color: #aaaaaa;
+}
+
+/* line 49, ../../sass/colors/_skins.scss */
+.black {
+  color: #111111;
+}
+
+/* PRETTIER LINKS */
+/* line 3, ../../sass/colors/_links.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/* line 9, ../../sass/colors/_links.scss */
+a:link {
+  color: #0074d9;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/* line 15, ../../sass/colors/_links.scss */
+a:visited {
+  color: #b10dc9;
+}
+
+/* line 19, ../../sass/colors/_links.scss */
+a:hover {
+  color: #7fdbff;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/* line 25, ../../sass/colors/_links.scss */
+a:active {
+  color: #ff851b;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}

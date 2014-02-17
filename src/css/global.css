@@ -1,0 +1,840 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+/****
+
+   colors.css v1.0 For a friendlier looking web
+   MIT License • http://clrs.cc • http://github.com/mrmrs/colors
+
+   Author: mrmrs
+           http://mrmrs.cc
+           @mrmrs_
+
+****/
+/*
+
+   SKINS
+   • Backgrounds
+   • Colors
+
+*/
+/* Backgrounds */
+/* line 12, ../sass/colors/_skins.scss */
+.bg-navy {
+  background-color: #001f3f;
+}
+
+/* line 13, ../sass/colors/_skins.scss */
+.bg-blue {
+  background-color: #0074d9;
+}
+
+/* line 14, ../sass/colors/_skins.scss */
+.bg-aqua {
+  background-color: #7fdbff;
+}
+
+/* line 15, ../sass/colors/_skins.scss */
+.bg-teal {
+  background-color: #39cccc;
+}
+
+/* line 16, ../sass/colors/_skins.scss */
+.bg-olive {
+  background-color: #3d9970;
+}
+
+/* line 17, ../sass/colors/_skins.scss */
+.bg-green {
+  background-color: #2ecc40;
+}
+
+/* line 18, ../sass/colors/_skins.scss */
+.bg-lime {
+  background-color: #01ff70;
+}
+
+/* line 19, ../sass/colors/_skins.scss */
+.bg-yellow {
+  background-color: #ffdc00;
+}
+
+/* line 20, ../sass/colors/_skins.scss */
+.bg-orange {
+  background-color: #ff851b;
+}
+
+/* line 21, ../sass/colors/_skins.scss */
+.bg-red {
+  background-color: #ff4136;
+}
+
+/* line 22, ../sass/colors/_skins.scss */
+.bg-fuchsia {
+  background-color: #f012be;
+}
+
+/* line 23, ../sass/colors/_skins.scss */
+.bg-purple {
+  background-color: #b10dc9;
+}
+
+/* line 24, ../sass/colors/_skins.scss */
+.bg-maroon {
+  background-color: #85144b;
+}
+
+/* line 25, ../sass/colors/_skins.scss */
+.bg-white {
+  background-color: white;
+}
+
+/* line 26, ../sass/colors/_skins.scss */
+.bg-gray {
+  background-color: #aaaaaa;
+}
+
+/* line 27, ../sass/colors/_skins.scss */
+.bg-silver {
+  background-color: #dddddd;
+}
+
+/* line 28, ../sass/colors/_skins.scss */
+.bg-black {
+  background-color: #111111;
+}
+
+/* Colors */
+/* line 33, ../sass/colors/_skins.scss */
+.navy {
+  color: #001f3f;
+}
+
+/* line 34, ../sass/colors/_skins.scss */
+.blue {
+  color: #0074d9;
+}
+
+/* line 35, ../sass/colors/_skins.scss */
+.aqua {
+  color: #7fdbff;
+}
+
+/* line 36, ../sass/colors/_skins.scss */
+.teal {
+  color: #39cccc;
+}
+
+/* line 37, ../sass/colors/_skins.scss */
+.olive {
+  color: #3d9970;
+}
+
+/* line 38, ../sass/colors/_skins.scss */
+.green {
+  color: #2ecc40;
+}
+
+/* line 39, ../sass/colors/_skins.scss */
+.lime {
+  color: #01ff70;
+}
+
+/* line 40, ../sass/colors/_skins.scss */
+.yellow {
+  color: #ffdc00;
+}
+
+/* line 41, ../sass/colors/_skins.scss */
+.orange {
+  color: #ff851b;
+}
+
+/* line 42, ../sass/colors/_skins.scss */
+.red {
+  color: #ff4136;
+}
+
+/* line 43, ../sass/colors/_skins.scss */
+.fuchsia {
+  color: #f012be;
+}
+
+/* line 44, ../sass/colors/_skins.scss */
+.purple {
+  color: #b10dc9;
+}
+
+/* line 45, ../sass/colors/_skins.scss */
+.maroon {
+  color: #85144b;
+}
+
+/* line 46, ../sass/colors/_skins.scss */
+.white {
+  color: white;
+}
+
+/* line 47, ../sass/colors/_skins.scss */
+.silver {
+  color: #dddddd;
+}
+
+/* line 48, ../sass/colors/_skins.scss */
+.gray {
+  color: #aaaaaa;
+}
+
+/* line 49, ../sass/colors/_skins.scss */
+.black {
+  color: #111111;
+}
+
+/* PRETTIER LINKS */
+/* line 3, ../sass/colors/_links.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/* line 9, ../sass/colors/_links.scss */
+a:link {
+  color: #0074d9;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/* line 15, ../sass/colors/_links.scss */
+a:visited {
+  color: #b10dc9;
+}
+
+/* line 19, ../sass/colors/_links.scss */
+a:hover {
+  color: #7fdbff;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/* line 25, ../sass/colors/_links.scss */
+a:active {
+  color: #ff851b;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 22, ../sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 33, ../sass/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 42, ../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+/* line 53, ../sass/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 67, ../sass/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 77, ../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, ../sass/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, ../sass/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 111, ../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 120, ../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 129, ../sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 137, ../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 145, ../sass/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 155, ../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 167, ../sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 176, ../sass/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 184, ../sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 192, ../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 201, ../sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 208, ../sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 212, ../sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 224, ../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 232, ../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 244, ../sass/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * 1. Define consistent border, margin, and padding.
+ * 2. Address width being affected by wide descendants in Chrome and Firefox.
+ */
+/* line 257, ../sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  /* 1 */
+  margin: 0 2px;
+  /* 1 */
+  min-width: 0;
+  /* 2 */
+  padding: 0.35em 0.625em 0.75em;
+  /* 1 */
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 269, ../sass/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct color not being inherited in all browsers.
+ *    Known issue: `select` will not inherit color in Chrome and Safari on OS X.
+ * 2. Correct font properties not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 285, ../sass/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Re-apply the `font-weight` to avoid modifying the default UX, and because
+ * the default cannot be changed in Chrome and Safari on OS X.
+ */
+/* line 296, ../sass/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 306, ../sass/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 318, ../sass/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 333, ../sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 343, ../sass/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 353, ../sass/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 364, ../sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 377, ../sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 386, ../sass/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 396, ../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 409, ../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 415, ../sass/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+/* Colors
+   ========================================================================== */
+/* Don't use black */
+/* Gray scale */
+/* Type Scale
+   ========================================================================== */
+/**
+ * 12 & 16 as roots then powers of two.
+ */
+/* Medium */
+/* Large */
+/* ==========================================================================
+   QUERIES
+   ========================================================================== */
+/*
+ * Mixing for mobile first queries.
+ * Two breakpoints.
+ * Use like @include break(medium) { ***Styles*** }
+ *
+ */
+/* ==========================================================================
+   TYPE
+   - Copy
+   - Headings
+   ========================================================================== */
+/* Copy
+   ========================================================================== */
+/* line 10, ../sass/_type.scss */
+p {
+  font-size: 24px;
+}
+
+/* line 11, ../sass/_type.scss */
+.intro {
+  font-size: 32px;
+}
+
+/* Headings
+   ========================================================================== */
+/* line 18, ../sass/_type.scss */
+h1, .h1 {
+  font-size: 64px;
+}
+
+/* line 19, ../sass/_type.scss */
+h2, .h2 {
+  font-size: 48px;
+}
+
+/* line 20, ../sass/_type.scss */
+h3, .h3 {
+  font-size: 32px;
+}
+
+/* line 21, ../sass/_type.scss */
+h4, .h4 {
+  font-size: 24px;
+}
+
+/* line 22, ../sass/_type.scss */
+h5, .h5 {
+  font-size: 16px;
+}
+
+/* line 23, ../sass/_type.scss */
+h6, .h6 {
+  font-size: 12px;
+}
+
+/* line 25, ../sass/_type.scss */
+.meta {
+  font-size: 12px;
+}
+
+/* line 27, ../sass/_type.scss */
+blockquote {
+  font-size: 48px;
+}
+
+/* ==========================================================================
+   Site styles
+   ========================================================================== */
+/* line 6, ../sass/_styles.scss */
+#flex {
+  display: flex;
+  padding: 3rem;
+}
+
+/* line 8, ../sass/_styles.scss */
+body {
+  background-color: #F7F7F7;
+}
+
+/* line 14, ../sass/_styles.scss */
+nav {
+  padding: 1em;
+  text-align: right;
+  font-size: 16px;
+  font-family: 'helvetica', 'arial';
+}
+
+/* line 21, ../sass/_styles.scss */
+header {
+  min-height: 3.2em;
+  padding-top: 0.7em;
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Amatic SC', helvetica, 'arial';
+}
+
+/* line 30, ../sass/_styles.scss */
+.one, .two {
+  font-family: 'Buenard', sans-serif;
+  font-size: 24px;
+  margin: 1em;
+}
+
+/* ==========================================================================
+   Media Queries
+
+   - Not-small
+   - Medium
+   - Large
+   ========================================================================== */
+/* Not-small (anything bigger than your first breakpoint)
+   ========================================================================== */
+@media screen and (min-width: 48em) {
+  /* line 16, ../sass/_grid.scss */
+  header {
+    font-size: 48px;
+  }
+
+  /* line 20, ../sass/_grid.scss */
+  .gravatar {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+    position: absolute;
+  }
+
+  /* line 25, ../sass/_grid.scss */
+  .one, .two {
+    width: 50%;
+    margin: 1em auto;
+  }
+}
+/* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
+   ========================================================================== */
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  /* line 36, ../sass/_grid.scss */
+  .gravatar {
+    background: url("http://www.gravatar.com/avatar/86f60f5546a08a579435b5d49b85b004?s=100") no-repeat;
+    height: 100px;
+    width: 98px;
+    right: 40px;
+    top: 100px;
+  }
+}
+/* Large - only targets 2nd breakpoint. Styles do not extend past 64em.
+   ========================================================================== */
+@media screen and (min-width: 64em) {
+  /* line 48, ../sass/_grid.scss */
+  .gravatar {
+    background: url("http://www.gravatar.com/avatar/86f60f5546a08a579435b5d49b85b004?s=140") no-repeat;
+    height: 140px;
+    width: 140px;
+    right: 190px;
+    top: 160px;
+  }
+
+  /* line 56, ../sass/_grid.scss */
+  .one, .two {
+    width: 33%;
+  }
+}

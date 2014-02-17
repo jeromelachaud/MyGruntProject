@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Site styles
+   ========================================================================== */
+
+
+#flex {display: flex; padding: 3rem;}
+
+body {
+	// background: url('../img/bg-loft.jpg');
+	// @include background-size(cover);
+	background-color: #F7F7F7; 
+}
+
+nav {
+	padding: 1em;
+	text-align: right;
+	font-size: $font-size-5;
+	font-family: 'helvetica', 'arial';
+}
+
+header {
+	min-height: 3.2em;
+	padding-top: 0.7em;
+	margin: auto;
+	text-align: center;
+	font-size: $font-size-3;
+	font-family: 'Amatic SC', helvetica, 'arial';
+}
+
+.one, .two{
+	font-family: 'Buenard', sans-serif;
+	font-size: $font-size-4;
+	margin: 1em;
+
+}
